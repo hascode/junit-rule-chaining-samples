@@ -15,5 +15,4 @@ public class ConsoleOutRule implements TestRule {
 		System.out.println("rule applied. note: " + note);
 		return base;
 	}
-
 }
