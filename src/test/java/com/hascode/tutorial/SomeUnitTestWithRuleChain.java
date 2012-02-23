@@ -14,7 +14,6 @@ public class SomeUnitTestWithRuleChain {
 			.around(new ConsoleOutRule("inner"));
 
 	@Test
-	@ConsoleOut
 	public void testSomeMethod() {
 		System.out.println("test started");
 		assertTrue(true);
