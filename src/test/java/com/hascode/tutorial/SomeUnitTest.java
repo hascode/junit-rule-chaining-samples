@@ -10,7 +10,6 @@ public class SomeUnitTest {
 	public ConsoleOutRule rule = new ConsoleOutRule("somewhere");
 
 	@Test
-	@ConsoleOut
 	public void testSomeMethod() {
 		System.out.println("test started");
 		assertTrue(true);
